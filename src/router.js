@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Drugs from "./views/Drugs.vue";
+import AddDrug from "./views/AddDrug.vue";
 
 
 
@@ -17,6 +18,11 @@ const routes = [
     path: "/drugs",
     name: "drugs",
     component: Drugs
+  },
+  {
+    path: "/addDrug",
+    name: "addDrug",
+    component: AddDrug
   }
 ];
 
