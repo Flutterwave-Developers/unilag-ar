@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <p>fbeyh</p>
+    <HeaderComponent />
     <router-view />
   </div>
 </template>
 
 <script>
+import HeaderComponent from "@/components/Header.vue";
 export default {
   name: "app",
-  components:{
-    
-    
+  components: {
+    HeaderComponent
   }
 };
 </script>
@@ -20,7 +20,5 @@ export default {
   font-family: "Nunito";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-  
 }
 </style>
