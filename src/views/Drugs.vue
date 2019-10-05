@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="pt-32">
         <p class="text-center title-text m-2">Drug Listing</p>
         <div class="flex flex-wrap">
             <div class="w-full md:w-1/4" v-for="i in 8" :key="i">

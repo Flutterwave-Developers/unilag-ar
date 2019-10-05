@@ -1,6 +1,6 @@
 <template>
   <div class="font-sans antialiased" id="app">
-    <nav class="flex items-center fixed w-full justify-between flex-wrap bg-transparent p-6">
+    <nav class="flex items-center fixed w-full justify-between flex-wrap bg-transparent z-10 p-6">
       <div class="flex items-center flex-no-shrink text-white mr-6">
         <router-link to="/">
         Eazy HealthCare
@@ -24,9 +24,9 @@
         <div class="text-sm sm:flex-grow"></div>
         <div>
           <router-link
-            to="about"
+            to="drugs"
             class="block mt-4 lg:inline-block uppercase text-white font-semibold text-lg md:px-4 md:py-2 lg:mt-0 mr-4"
-          >Our Services</router-link>
+          >Drugs</router-link>
           <router-link
             to="pricing"
             class="block mt-4 lg:inline-block uppercase text-white font-semibold text-lg md:px-4 md:py-2 lg:mt-0 mr-4"
